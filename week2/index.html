@@ -4,48 +4,135 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <title>Likelion_Week2_Hyunsu</title>
 
     <link rel = "stylesheet" href="./style.css">
+    <!-- 폰트 적용 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Gowun+Dodum&display=swap" rel="stylesheet">
+    <!-- 아이콘 적용 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 
     <meta property="og:title" content = "멋사_현수">
-    <meta property="og:description" content = "Welcome to Hyunsu's Github">
+    <meta property="og:description" content = "Welcome to Hyunsu's Webpage">
     <meta property="og:im age" content = "./meimg.jpg">
+
     
 </head>
 <body>
 
+<nav>
+    <div class = "container"> 
+        <h1 class="nav-logo"><a href = "./index.html">hyunsu's page</a></h1>
+        <div class = "nav-menu">
+            <ul class = "nav-btn">
+                <audio controls>
+                    <source src="audio.mp3" controls autoplay>            
+                </audio>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-    <h1>이름 ㅣ 강현수</h1> 
+
+<header>
 
 
-    <div class = "container" >
-        <img
-            src = "./dog.jpg"
-            alt = "maru_dog"
-        >
+    <div class="container">
+        <h3>
+            <b>
+                <i>
+                    My Profile
+                </i>
+            </b>
+        </h3>
+        
+        <div class="hd-img">
+            <img src="./meimg.jpg" width="250px">
+        </div>
+        <div class = "hd-explain">
+            <p>
+                안녕하세요~! <br>
+                저는 강현수이고 <br>
+                정보통신공학과 20학번입니다.
+            </p>
+            <li><a>MBTI : ISFJ</a></li>
+            <li><a href="https://github.com/hyunsuinuk/" target="_blank">GitHub</a></li>          
+
+        </div>
+
+    </div>
+
+
+</header>
+
+<section class="sec">
+
+    <div class = "playlist">
+        <p>
+            <b>
+                <i>
+                    Playlist
+                </i>
+            </b>
+        </p>
+    </div>
+
+    <div class = "song">
+        <p>
+            That's Not How This Works - Charlie Puth <br>
+            Teenage Dream - Stephen Dawes <br>
+            Eyes Closed - Ed Sheeran
+        </p>
+    </div>
+
+    <div class = "buk">
+        <p>
+            <b>
+                <i>
+                    <br>Buketlist
+                </i>
+            </b>
+        </p>
     </div>
 
     
 
-    <span>소개글 - 만지면 물어요 왈왈</span>
     
     
-    <h4>버킷리스트</h4>
+    <div class="container">
+        <article class="atc">
+            <div class="card-img">
+                <img src="./im1.jpg" alt = "자고싶어요">
+            </div>
+            <p>자고싶어요</p>
+        </article>
 
-    <!-- ul li 태그는 목차를 만들어줘요 -->
-    <ul>
-        <li>집가기</li>
-        <li>자기</li>
-        <li>놀기</li>
-    </ul>
+        <article class="atc">
+            <div class="card-img">
+                <img src="./im2.jpg" alt = "놀고싶어요">
+            </div>
+            <p>놀고싶어요</p>
+        </article>
 
-    <br>
+        <article class="atc">
+            <div class="card-img">
+                <img src="./im3.jpg" alt = "집가고싶어요">
+            </div>
+            <p>집가고싶어요</p>
+        </article>
+    </div>
+</section>
 
-    <h3><a href="https://github.com/hyunsuinuk">깃허브 주소</a></h3>
-    <!-- a태그는 링크를 만들어줘요! (href속성안에 주소를 적어주면 된답니다!) -->
 
 
+<footer class="ft">
+    <div class="container">
+        <p>&copy; 2023 HYUNSU. All rights reserved.</p>
+    </div>
+</footer>
 
 </body>
 </html>
